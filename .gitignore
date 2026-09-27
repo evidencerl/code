@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Checkpoints and large artifacts
+checkpoints/
+*.pt
+*.safetensors
+*.bin
+*.part
+
+# Environment & Credentials
+.env
+*.key
+*.pem
+*.token
+
+# Logs and outputs
+logs/
+*.log
+*.out
+results/
+tmp/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

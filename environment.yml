@@ -1,0 +1,18 @@
+# Self-contained Evidence-RL environment. Create with:
+#   bash scripts/create_conda_env.sh
+# Prefix defaults to /input0/hhj/envs/evidence_rl on the lab cluster,
+# or $PWD/.conda/evidence_rl for a laptop clone.
+name: evidence_rl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - git
+  - cmake
+  - ninja
+  - packaging
+  - nlohmann_json
+  - pybind11
+  - pip:
+      - -r requirements.txt
